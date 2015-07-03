@@ -1,0 +1,54 @@
+<Alloy>
+	<Window class="container">
+		<View id="main">
+
+			<View id="navBar">
+				<Button id="backButton"/>
+			</View>
+
+			<View id="foto">
+				<View id="fotoUno" class="fotoOutside"></View>
+				<View id="fotoDos">
+					<ImageView id="carita" />
+				</View>
+				<View id="fotoTres" class="fotoOutside"></View>
+			</View>
+
+			<View id="nombre">
+				<View id="nombreUno" class="nombreOutside"></View>
+				<View id="nombreDos">
+					<Label id="name"></Label>
+				</View>
+				<View id="nombreTres" class="nombreOutside"></View>
+			</View>
+
+			<View id="deseo">
+				<View id="deseoUno">
+					<Label id="labelDeseoUno">Su sueño es: </Label>
+				</View>
+				<View id="deseoDos">
+					<Label id="labelDeseoDos"></Label>
+				</View>
+			</View>
+
+			<View id="descripcion">
+				<View id="descripUno" class="descripOutside"></View>
+				<View id="descripDos">
+					<View id="contDescrip">
+						<Label id="labelDescrip"></Label>
+					</View>
+				</View>
+				<View id="descripTres" class="descripOutside"></View>
+			</View>
+
+			<View id="six">
+				<View id="sixOne"></View>
+				<View id="sixTwo">
+					<Button id="buttonDale"/>
+				</View>
+				<View id="sixThree"></View>
+			</View>
+
+		</View>
+	</Window>
+</Alloy>

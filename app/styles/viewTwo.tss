@@ -1,0 +1,180 @@
+
+".container" : {
+  layout:'vertical',
+  height:'100%',
+  width:'100%',
+  backgroundColor:'white',
+  orientationModes: [Titanium.UI.PORTRAIT]
+}
+
+"#main":{
+	layout:'vertical',
+	height:'100%',
+	width:'100%'
+}
+
+"#navBar":{
+	layout:'horizontal',
+	width:'100%',
+	height:'10%',
+	backgroundColor:'white'
+}
+
+
+"#foto":{
+	layout:'horizontal',
+	width:'100%',
+	height:'17%',
+	backgroundColor:'white'
+}
+
+".fotoOutside":{
+	height:"100%",
+	width:"30%"
+}
+
+"#fotoDos":{
+	layout:"vertical",
+	height:"100%",
+	width:"40%"
+}
+
+"#carita":{
+	width:"50%",
+	height:"80%",
+	top:"5%"
+}
+
+
+"#nombre":{
+	layout:'horizontal',
+	width:'100%',
+	height:'8%',
+	backgroundColor:'white'
+}
+
+".nombreOutside":{
+	width:"5%",
+	height:"100%"
+}
+
+"#nombreDos":{
+	layout:"vertical",
+	width:"90%",
+	height:"100%",
+	backgroundColor:"white"
+}
+
+"#name":{
+	textAlign:"center",
+	color:"#F9A10B",
+	font:{
+		fontSize:"5em"
+	}
+}
+
+"#deseo":{
+	layout:'horizontal',
+	width:'100%',
+	height:'10%',
+	backgroundColor:'white'
+}
+
+"#deseoUno":{
+	layout:"vertical",
+	width:"40%",
+	height:"100%",
+	backgroundColor:"white"
+}
+
+"#deseoDos":{
+	layout:"vertical",
+	width:"60%",
+	height:"100%",
+	backgroundColor:"white"
+}
+
+"#labelDeseoUno":{
+	right:"0%",
+	color:"#61839B"
+}
+
+"#labelDeseoDos":{
+  left:"3%",
+  right:'15%',
+	color:"#94CCF1"
+}
+
+
+"#descripcion":{
+	layout:'horizontal',
+	width:'100%',
+	height:'30%',
+	backgroundColor:'white'
+}
+
+".descripOutside":{
+	width:"5%",
+	height:"100%"
+}
+
+"#descripDos":{
+	layout:"vertical",
+	width:"90%",
+	height:"100%"
+}
+
+
+"#contDescrip":{
+	layout:"vertical",
+	width:"90%",
+	height:"100%",
+	borderColor: "#F9A10B",
+	borderWidth:"2",
+	borderRadius:10
+}
+
+"#labelDescrip":{
+	left:"8%",
+	right:"2%",
+	top:"8%",
+	color:"black",
+	textAlign:"justify"
+}
+
+
+"#six":{
+	layout:'horizontal',
+	width:'100%',
+	height:'25%',
+	backgroundColor:'white'
+}
+
+"#sixOne":{
+	width:"20%",
+	height:"100%"
+}
+
+"#sixTwo":{
+	width:"60%",
+	height:"100%"
+}
+
+"#sixThree":{
+	width:"20%",
+	height:"100%"
+}
+
+"#backButton":{
+	backgroundImage:'/images/pantalla3/flecha.png',
+	height:"80%",
+	width:"12%",
+	top:"17%",
+	left:"5%"
+}
+
+"#buttonDale":{
+	backgroundImage:'/images/pantalla3/daleUnSuenoBoton.png',
+	width:"100%",
+	height:"40%"
+}

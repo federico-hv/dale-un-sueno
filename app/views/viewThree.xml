@@ -1,0 +1,50 @@
+<Alloy>
+	<Window class="container">
+		<View id="main">
+
+			<View id="navBar">
+				<Button id="backButton"/>
+			</View>
+
+			<View id="contacto">
+				<View id="contactoUno" class="outside"></View>
+				<View id="contactoDos" class="inside">
+					<Label id="labelContacto">CONTACTO</Label>
+				</View>
+				<View id="contactoTres" class="outside"></View>
+			</View>
+
+
+			<View id="logo">
+				<View id="logoUno" class="outside"></View>
+				<View id="logoDos" class="inside">
+					<ImageView image="/images/pantalla4/LogoFNHfondoblanco.png"></ImageView>
+				</View>
+				<View id="logoTres" class="outside"></View>
+			</View>
+
+			<View id="belowLogo"></View>
+
+			<View id="call">
+				<View id="callUno" class="outside"></View>
+				<View id="callDos" class="inside">
+					<Button id="callButton"></Button>
+				</View>
+				<View id="callTres" class="outside"></View>
+			</View>
+
+			<View id="seven"></View>
+
+			<View id="mail">
+				<View id="mailUno" class="outside"></View>
+				<View id="mailDos" class="inside">
+					<Button id="mailButton"></Button>
+				</View>
+				<View id="mailTres" class="outside"></View>
+			</View>
+
+			<View id="nine"></View>
+
+		</View>
+	</Window>
+</Alloy>

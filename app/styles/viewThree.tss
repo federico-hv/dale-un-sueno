@@ -1,0 +1,114 @@
+
+".container" : {
+    orientationModes: [Titanium.UI.PORTRAIT]
+}
+
+"#main":{
+	layout:'vertical',
+	height:'100%',
+	width:'100%'
+}
+
+"#navBar":{
+	layout:'horizontal',
+	width:'100%',
+	height:'10%',
+	backgroundColor:'white'
+}
+
+"#backButton":{
+	backgroundImage:'/images/pantalla3/flecha.png',
+	height:"80%",
+	width:"12%",
+	top:"17%",
+	left:"5%"
+}
+
+"#contacto":{
+	layout:'horizontal',
+	height:'12%',
+	width:'100%'
+}
+
+
+
+"#labelContacto":{
+	textAlign:"center",
+	color:"#F9A10B",
+  top:'30%',
+	font:{
+		fontSize:"22dp"
+	}
+}
+
+
+"#logo":{
+	layout:'horizontal',
+	height:'40%',
+	width:'100%',
+	backgroundColor:"white"
+}
+
+
+"#belowLogo":{
+	layout:'horizontal',
+	height:'6%',
+	width:'100%',
+	backgroundColor:"white"
+}
+
+"#call":{
+	layout:'horizontal',
+	height:'10%',
+	width:'100%',
+	backgroundColor:"white"
+}
+
+"#seven":{
+	layout:'horizontal',
+	height:'5%',
+	width:'100%',
+	backgroundColor:"white"
+}
+
+"#mail":{
+	layout:'horizontal',
+	height:'10%',
+	width:'100%',
+	backgroundColor:"white"
+}
+
+"#nine":{
+	layout:'horizontal',
+	height:'7%',
+	width:'100%',
+	backgroundColor:"white"
+}
+
+
+".outside":{
+	width:"20%",
+	height:"100%",
+	backgroundColor:"white"
+}
+
+
+".inside":{
+	layout:"vertical",
+	width:"60%",
+	height:"100%",
+	backgroundColor:"white"
+}
+
+
+"#callButton":{
+	backgroundImage:'/images/pantalla4/llamarAhora.png',
+	width:"100%",
+	height:"100%"
+}
+
+"#mailButton":{
+	backgroundImage:'/images/pantalla4/enviarMail.png',
+	width:"100%",
+	height:"100%"
+}

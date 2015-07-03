@@ -1,0 +1,28 @@
+<Alloy>
+	<Window class="container">
+		<View id="main">
+			<View id="header">
+                <ImageView id="logo" image="/logodaleunsueno.png"/>
+      </View>
+			<!--
+			<TableView id="listado" dataCollection="chico" dataTransform="transformData" onDragEnd="refreshTable">
+
+            		<TableViewRow class="item" nombre="{nombre}" apellido="{apellido}" descripcion="{descripcion}" foto="{foto}" deseo="{deseo}">
+            			<View id="uno">
+            				<ImageView class="carita" image="/images/caritas/carita1.png"/>
+            			</View>
+            			<View id="dos">
+            				<View id="dosUno">
+            					<Label class="nombre">{completeName}</Label>
+            				</View>
+            				<View id="dosDos">
+            					<Label class="deseo">{deseo}</Label>
+            				</View>
+            			</View>
+            		</TableViewRow>
+        	</TableView>
+        -->
+			<ScrollView id="scrollView"></ScrollView>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,33 @@
+".container": {
+	backgroundColor:"white",
+	orientationModes: [Titanium.UI.PORTRAIT]
+}
+
+"#main":{
+	layout:"vertical",
+	width:"100%",
+	height:"100%",
+	backgroundColor:"white"
+}
+
+"#header":{
+	layout:"vertical",
+	width:"100%",
+	height:"25%"
+}
+
+
+"#logo":{
+	/*image:'/images/logodaleunsueno.png',*/
+	height:"70%",
+	width:"50%",
+	top:"15%"
+}
+
+
+
+"#scrollView":{
+	layout:"vertical",
+	width:"100%",
+	height:"75%"
+}
